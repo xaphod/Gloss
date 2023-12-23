@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name             = "Gloss"
-  s.version          = "3.2.1"
+  s.version          = "3.2.2"
   s.summary          = "[Deprecated] A shiny JSON parsing library in Swift"
   s.description      = "[Deprecated] A shiny JSON parsing library in Swift."
   s.homepage         = "https://github.com/hkellaway/Gloss"
@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => "https://github.com/hkellaway/Gloss.git", :tag => s.version.to_s }
   
   s.swift_version    = "5.0"
-  s.platforms        = { :ios => "8.0", :osx => "10.9", :tvos => "9.0", :watchos => "2.0" }
+  s.platforms        = { :ios => "11.0", :osx => "10.9", :tvos => "9.0", :watchos => "2.0" }
   s.requires_arc     = true
 
   s.source_files     = 'Sources/Gloss/*.{swift}'
